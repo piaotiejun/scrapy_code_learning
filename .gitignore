@@ -9,8 +9,6 @@
 =======
 *.pyc
 
-/venc
-
 *.json
 
 *.log
