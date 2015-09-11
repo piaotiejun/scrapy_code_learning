@@ -7,7 +7,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/piaotiejun/workspace/python_workspace/spider/scrapy/src/scrapy_code_learning/venc"
+setenv VIRTUAL_ENV "/Users/potiejun/workspace/python_workspace/spider/scrapy_code_learning/venc"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
