@@ -1,0 +1,16 @@
+#!/Users/potiejun/workspace/python_workspace/spider/scrapy_code_learning/venc/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from scrapy.cmdline import execute
+try:
+    import scrapy
+    print scrapy.__path__
+except ImportError as e:
+    print(e)
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(execute())
